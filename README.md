@@ -10,6 +10,7 @@ Step 3:Now i will open Remix IDE on our browser.
 Step 4:Now i have to connect with Localhost Workspaces in my Remix IDE, Selecting "default_workspace" to "Localhost" button in the top-right "Workspaces" corner. As a result this will connect my  project directory on remix IDE.
 Step 5:Afte writting our contract successfully now i will  Compile the contract in Remix IDE, find and open your ".sol" file in your contract folder and switch to the "Solidity Compiler" tab in the left hand side of IDE. NOw i wiil  click on the "Compile" button to compile the contract.
 Follwing are my contract
+```
 solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
@@ -57,7 +58,7 @@ contract MyToken {
         myamount[_to] += _amount;
     }
 }
-
+```
 Step 6: Now i will Deploy and Interact with the Contract. In Top left corner the "Environment" dropdown, and  select "Injected Web3" to connect to local Hardhat.
 To interact with the contract effectively, we wiil follow these steps:
 
